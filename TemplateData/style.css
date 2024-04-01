@@ -1,0 +1,52 @@
+#unit-loadin-message {
+    text-align: left;
+}
+
+#unity-loading-bar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: none;
+}
+
+#unity-progress-bar-empty {
+    width: 141px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 6.5px;
+    background: url("progress-bar-empty-dark.png") no-repeat center;
+}
+#unity-progress-bar-full {
+    width: 0%;
+    height: 18px;
+    margin-top: 10px;
+    background: url("progress-bar-full-dark.png") no-repeat center;
+}
+
+body {
+    margin: 0;
+    background: #000;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#puzzle .swal2-confirm {
+    outline: 2px #FF95AE solid;
+    padding: 10px 100px;
+}
+
+#unity-container {
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+#unity-canvas {
+    max-width: 100dvw;
+    max-height: 100dvh;
+    width: calc(100dvh * 9 / 16);
+    height: calc(100dvw * 16 / 9);
+}
